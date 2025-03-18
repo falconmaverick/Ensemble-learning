@@ -44,7 +44,7 @@ dt = Pipeline([
 
 models = [lr, svr, dt]
 
-# Train models and make predictions
+# Train models and making predictions
 preds = []
 for model in models:
     model.fit(X_train, y_train)
